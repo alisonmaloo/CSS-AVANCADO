@@ -1,14 +1,49 @@
-/* barra de navegação certical */
-ul{
-       
-    margin: 0;
-    padding: 0;
+body {
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+background: #f2f2f2;
+
 }
 
-li{
-   
-    padding: 5px 20px;
-background: url(../imagens/seta.png) no-repeat left center;
+
+
+#container{
+    width: 85%;
+    margin: 0 auto;
+    background: #fff;
 }
 
-ul a 
+#marca {
+    height: 100%;
+    background: #9e9e9e;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo{
+    width: 75%;
+    float: right;
+}
+
+#navegaçao{
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+
+}
+
+#navegaçao ul {
+    list-style: none;
+}
+
+#navegaçao li a {
+    text-decoration: none;
+}
+
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
